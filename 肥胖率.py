@@ -34,7 +34,7 @@ df.to_html('New_Data.html',encoding='utf8')
 # #存檔至mydatabase.db
 import sqlite3
 con = sqlite3.connect('mydatabase.db')
-df.to_sql('version3',con)
+df.to_sql('1',con)
 
 #資料視覺化
 #進行繪圖
@@ -43,7 +43,14 @@ x = df['years']
 y1 = df['Male(%)']
 y2 = df['Female(%)']
 y3 = df['Both(%)']
-plt.plot(x,y1)
-plt.plot(x,y2)
-plt.plot(x,y3)
+#plt.plot(x,y1)
+#plt.plot(x,y2)
+#plt.plot(x,y3)
+plt.title("2008~2013年歷年18歲以上過重與肥胖率")
+plt.xlabel("xlabel")
+plt.ylabel("ylabel")
+plt.legend(
+    loc='best',
+    title='性別')
+plt.plot(x,y1,x,y2,x,y3)
 plt.show()
