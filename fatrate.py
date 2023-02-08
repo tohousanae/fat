@@ -12,9 +12,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 pd.set_option("display.max_rows", 1000) # 設定最大能顯示1000rows
 pd.set_option("display.max_columns", 1000) # 設定最大能顯示1000columns
-# 將 columns 名稱調整成英文，方便分析操作
 
-df=pd.read_csv(r'File_14622.csv')
+df=pd.read_csv(r'File_14622.csv') # 匯入要分析的資料
 print(df.pivot_table) # 顯示表格
 headers = ['years','Sample Size', 'Male(%)', 'Female(%)', 'Both(%)'] # 將 columns 名稱調整成英文，方便分析操作
 df.columns = headers
@@ -45,8 +44,9 @@ plt.plot(x, y2, label='女性')
 plt.plot(x, y3, label='其他')
 plt.legend(loc='lower right')
 plt.show()
+plt.savefig('plot.png')
 
 # 存檔至mydatabase.db
 import sqlite3
 con = sqlite3.connect('mydatabase.db')
-df.to_sql('users4',con)
+df.to_sql('users5',con)
