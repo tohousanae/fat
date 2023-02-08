@@ -43,10 +43,10 @@ plt.plot(x, y1, label='男性')
 plt.plot(x, y2, label='女性')
 plt.plot(x, y3, label='其他')
 plt.legend(loc='lower right')
-plt.show()
 plt.savefig('plot.png')
+plt.show()
 
 # 存檔至mydatabase.db
 import sqlite3
 con = sqlite3.connect('mydatabase.db')
-df.to_sql('users5',con)
+df.to_sql('users6',con)
