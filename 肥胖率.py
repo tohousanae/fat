@@ -34,7 +34,11 @@ df.to_html('New_Data.html',encoding='utf8')
 # #存檔至mydatabase.db
 import sqlite3
 con = sqlite3.connect('mydatabase.db')
-df.to_sql('1',con)
+i = 0  # 用迴圈自動更新user
+while i < i+1:  # 總共要印十份罰抄
+    print("i")
+    i = i + 1  # 印完一份就+1
+    df.to_sql('version'+str(i),con)
 
 #資料視覺化
 #進行繪圖
@@ -49,8 +53,7 @@ y3 = df['Both(%)']
 plt.title("2008~2013年歷年18歲以上過重與肥胖率")
 plt.xlabel("xlabel")
 plt.ylabel("ylabel")
-plt.legend(
-    loc='best',
-    title='性別')
+plt.legend(labels=['年','男性(%)','女性(%)','不分性別(%)'],loc='best')
+plt.legend(handles=[l1,l2],labels=['up','down'],loc='best')
 plt.plot(x,y1,x,y2,x,y3)
 plt.show()
