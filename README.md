@@ -19,7 +19,7 @@ DB Browser for SQLite,用來查看.db資料庫文件
 
 ### 安裝步驟
 
-1.點選code按鈕
+1.點選code按鈕<br>
 2.Download ZIP
 
 ### 使用範例
