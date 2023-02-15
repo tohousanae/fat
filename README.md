@@ -13,7 +13,7 @@
 ```
 Python3
 可正確開啟xml,html,xlsx格式的軟件
-DB Browser for SQLite,用來查看.db資料庫文件
+DB Browser for SQLite,方便查看.db資料庫文件
 ```
 
 ### 安裝步驟
