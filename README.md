@@ -14,6 +14,7 @@
 Python3
 可正確開啟xml,html,xlsx格式的軟件
 DB Browser for SQLite
+建議使用Visual Studio Code執行方便除錯
 ```
 
 ### 安裝步驟
