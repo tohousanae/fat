@@ -44,8 +44,9 @@ plt.plot(x, y2, label='女性')
 plt.plot(x, y3, label='其他')
 plt.legend(loc='lower right')
 plt.savefig('plot.png')
-plt.show()
+plt.close()
 
+#%%
 # 存檔至mydatabase.db
 import sqlite3
 con = sqlite3.connect('mydatabase.db')
