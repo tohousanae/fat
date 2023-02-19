@@ -1,3 +1,4 @@
+#%%
 # -*- coding: utf-8 -*-
 """
 Created on Fri Dec  9 00:44:50 2022
@@ -20,17 +21,18 @@ df.columns = headers
 df.columns
 print(df.pivot_table) # 顯示調整後的表格
 
-from pylab import mpl # 指定windows默認字形：解決plot不能顯示中文問題
-mpl.rcParams['font.sans-serif'] = ['Microsoft YaHei']
-mpl.rcParams['axes.unicode_minus'] = False
-
+#%%
 # 轉換dataframe為csv,xlsx,html格式
 df.to_csv('New_Data.csv',encoding='utf8')
 df.to_excel('New_Data.xlsx',encoding='utf8')
 df.to_html('New_Data.html',encoding='utf8')
 
+#%%
 #資料視覺化
 #進行繪圖
+from pylab import mpl # 指定windows默認字形：解決plot不能顯示中文問題
+mpl.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+mpl.rcParams['axes.unicode_minus'] = False
 plt.figure()
 x = df['years']
 y1 = df['Male(%)']
