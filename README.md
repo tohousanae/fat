@@ -24,10 +24,9 @@ DB Browser for SQLite
 
 ### 執行結果範例
 <br>
-轉存csv<br>
+轉存csv
 ![image](https://user-images.githubusercontent.com/122202405/220419531-e0c51d98-3045-4c9c-82e9-c01e2a180f7d.png)
 <br>
-轉存html<br>
+轉存html
 ![image](https://user-images.githubusercontent.com/122202405/220419744-3185dd55-9329-48e9-9409-6772facc0801.png)
-<br>
 <br>
