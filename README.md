@@ -23,11 +23,3 @@ DB Browser for SQLite
 2.Download ZIP
 
 ### 執行結果範例
-<br>
-轉存csv<
-![螢幕擷取畫面 2023-02-22 014307](https://user-images.githubusercontent.com/122202405/220420805-4dc5de52-b853-47df-a2cd-20bec905de2f.png)
-<br>
-轉存html
-![螢幕擷取畫面 2023-02-22 014330](https://user-images.githubusercontent.com/122202405/220420835-356ef88e-c42c-40ff-a08d-a70ff0901360.png)
-<br>
-![螢幕擷取畫面 2023-02-22 014345](https://user-images.githubusercontent.com/122202405/220420860-6a828022-24a4-49aa-b178-950f32476bba.png)
