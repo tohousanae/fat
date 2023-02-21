@@ -24,7 +24,7 @@ DB Browser for SQLite
 
 ### 執行結果範例
 <br>
-轉存csv
+轉存csv<
 ![螢幕擷取畫面 2023-02-22 014307](https://user-images.githubusercontent.com/122202405/220420805-4dc5de52-b853-47df-a2cd-20bec905de2f.png)
 <br>
 轉存html
