@@ -24,4 +24,12 @@ DB Browser for SQLite
 
 ### 執行結果範例
 轉換csv:<br>
-![螢幕擷取畫面 2023-02-22 014307](https://user-images.githubusercontent.com/122202405/220620832-bc9dbc14-7270-4b28-a0e3-7d6333c2fb1d.png)
+![螢幕擷取畫面 2023-02-22 014307](https://user-images.githubusercontent.com/122202405/220620832-bc9dbc14-7270-4b28-a0e3-7d6333c2fb1d.png)<br>
+轉換html:<br>
+![image](https://user-images.githubusercontent.com/122202405/221213353-1e8b3ee7-fb6d-4e6e-9212-1940b6ea3f73.png)<br>
+
+轉換excel:<br>
+![image](https://user-images.githubusercontent.com/122202405/221215042-0f2eff92-1879-48bf-87ed-62cf1ad86aea.png)<br>
+
+轉換csv:<br>
+<br>
