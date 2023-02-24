@@ -23,5 +23,5 @@ DB Browser for SQLite
 2.Download ZIP
 
 ### 執行結果範例
-轉換csv<br>:
+轉換csv:<br>
 ![螢幕擷取畫面 2023-02-22 014307](https://user-images.githubusercontent.com/122202405/220620832-bc9dbc14-7270-4b28-a0e3-7d6333c2fb1d.png)
