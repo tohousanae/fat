@@ -33,5 +33,7 @@ DB Browser for SQLite
 ![image](https://user-images.githubusercontent.com/122202405/221215042-0f2eff92-1879-48bf-87ed-62cf1ad86aea.png)<br>
 <br>
 轉換sqlite資料庫:<br>
-![image](https://user-images.githubusercontent.com/122202405/221215319-737ebf09-e4fd-45af-9761-bfb7745e0cdb.png)
+![image](https://user-images.githubusercontent.com/122202405/221215319-737ebf09-e4fd-45af-9761-bfb7745e0cdb.png)<br>
 <br>
+繪製圖表:<br>
+![plot](https://user-images.githubusercontent.com/122202405/221215533-d153b665-6f2c-4642-a926-29bee6ef98bf.png)<br>
