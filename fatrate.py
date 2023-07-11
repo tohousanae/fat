@@ -53,3 +53,4 @@ plt.close()
 import sqlite3
 con = sqlite3.connect('mydatabase.db')
 df.to_sql('users',con)
+# %%
