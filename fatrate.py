@@ -52,5 +52,9 @@ plt.close()
 # 存檔至mydatabase.db
 import sqlite3
 con = sqlite3.connect('mydatabase.db')
+<<<<<<< Updated upstream
 df.to_sql('users',con)
 # %%
+=======
+df.to_sql('users',con)
+>>>>>>> Stashed changes
